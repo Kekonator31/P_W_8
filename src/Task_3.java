@@ -41,11 +41,11 @@ public class Task_3 {
 
         TreeMap<Integer, Applicant> applicants = new TreeMap<>();
 
-        applicants.put(0, new Applicant("Metro 2033", 2007));
-        applicants.put(1, new Applicant("S.T.A.L.K.E.R", 1972));
-        applicants.put(2, new Applicant("1984", 1949));
-        applicants.put(3, new Applicant("Harry Potter and the Philosopher's Stone", 1997));
-        applicants.put(4, new Applicant("Harry Potter and the Prisoner of Azkaban", 1999));
+        applicants.put(0, new Applicant("Oleksiy", 65));
+        applicants.put(1, new Applicant("Maria", 47));
+        applicants.put(2, new Applicant("Petro", 99));
+        applicants.put(3, new Applicant("Ivan", 100));
+        applicants.put(4, new Applicant("Anna", 84));
 
         System.out.println("Books before sorting:");
 
