@@ -47,11 +47,11 @@ public class Task_3 {
         applicants.put(3, new Applicant("Ivan", 100));
         applicants.put(4, new Applicant("Anna", 84));
 
-        System.out.println("Books before sorting:");
+        System.out.println("Applicants before sorting:");
 
         printList(applicants);
 
-        System.out.println("Books after sorting:");
+        System.out.println("Applicants after sorting:");
 
         applicants = compareTo(applicants);
 
